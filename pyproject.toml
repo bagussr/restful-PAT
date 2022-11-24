@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pat"
+version = "0.1.0"
+description = ""
+authors = ["bagussr <bagusssyamsu@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.87.0"
+sqlalchemy = {extras = ["psycopg2"], version = "^1.4.44"}
+psycopg2 = "^2.9.5"
+alembic = "^1.8.1"
+uvicorn = "^0.19.0"
+python-multipart = "^0.0.5"
+aiofiles = "^22.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
