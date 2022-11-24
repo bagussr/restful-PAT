@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
-db = create_engine("postgresql://postgres:dadasdudus12@localhost:5432/PAT")
+db = create_engine(DB_URI)
 
 Base = declarative_base()
 
